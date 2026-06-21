@@ -1,0 +1,23 @@
+package com.corejava.dayOneAssignments.Banking;
+
+import java.util.Scanner;
+
+public class Question_5_Insurance {
+	
+	static int ServiceCharge = 200;
+	
+	void PremiumCalculation() {
+			
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Please enter your Premium amount : ");
+		int amount = sc.nextInt();
+		
+		int totalAmount = amount + ServiceCharge;
+		
+		System.out.println("Your Total Premium Amount : "+totalAmount);
+		
+		sc.close();
+	}
+
+}

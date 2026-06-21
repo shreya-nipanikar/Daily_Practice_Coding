@@ -1,0 +1,16 @@
+package com.corejava.dayOneAssignments.Banking;
+
+import java.util.Scanner;
+
+public class Question_1_Banking {
+	
+	//Creating a method to call in main method
+	
+	void arithmeticOperations() {
+		
+		//Take two numbers as input from user
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+}

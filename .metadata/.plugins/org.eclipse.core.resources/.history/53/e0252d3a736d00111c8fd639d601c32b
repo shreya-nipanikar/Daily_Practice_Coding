@@ -1,0 +1,11 @@
+package com.corejava.dayOneAssignments;
+
+public class MainClassForOtherClasses {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

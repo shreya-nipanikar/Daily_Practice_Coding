@@ -1,0 +1,24 @@
+package com.corejava.dayOneAssignments;
+
+import com.corejava.dayOneAssignments.Banking.Question_1_Banking;
+import com.corejava.dayOneAssignments.Banking.Question_2_StudentMarks;
+import com.corejava.dayOneAssignments.Banking.Question_3_Ecommerce;
+
+public class MainClassForOtherClasses {
+	
+	public static void main(String[] args) {
+		
+		//Assignment 1
+		//Question_1_Banking QB = new Question_1_Banking();
+		//QB.arithmeticOperations();
+		
+		//Assignment 2
+		//Question_2_StudentMarks SM = new Question_2_StudentMarks();
+		//SM.averageCalculation();
+		
+		//Assignment 3
+		Question_3_Ecommerce productPrice = new Question_3_Ecommerce();
+		productPrice.productPrice();
+	}
+
+}

@@ -1,0 +1,62 @@
+package com.corejava.dayOneAssignments.Banking;
+
+import java.util.Scanner;
+
+public class Question_11_Reservation {
+	
+	 	public void ticketBookingAmount() {
+	 		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter number of tickets: ");
+		int ticketnumber = sc.nextInt();
+		
+		System.out.println("Enter price per ticket: ");
+		int price = sc.nextInt();
+		
+		int totalAmount = ticketnumber * price;
+		
+		System.out.println("Total cost: "+totalAmount);
+		sc.close();
+	}
+	 	
+	 	public void TrainTicket() {
+	 		
+	 		
+	 		Scanner sc = new Scanner(System.in);
+	 		System.out.println("Enter passenger name: ");
+			String name = sc.next();
+			
+			System.out.println("Enter train name: ");
+			String trainName = sc.next();
+			
+			System.out.println("Enter seat number: ");
+			int numb = sc.nextInt();
+			
+			System.out.println("Your NAME: "+name);
+			System.out.println("Your Train Name: "+trainName);
+			System.out.println("Your SeatNumber: "+numb);
+	 		
+	 		sc.close();
+	 		
+	 	}
+	 	
+	 	//Question 18
+	 	public void MovieTicketBooking() {
+	 		
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.println("Enter number of tickets: ");
+			int ticketnumber = sc.nextInt();
+			
+			System.out.println("Enter price per ticket: ");
+			int price = sc.nextInt();
+			
+			int totalAmount = ticketnumber * price;
+			
+			System.out.println("Booking Summary: "+totalAmount+" for "+ticketnumber+" number of people");
+			sc.close();
+		}
+	
+
+}

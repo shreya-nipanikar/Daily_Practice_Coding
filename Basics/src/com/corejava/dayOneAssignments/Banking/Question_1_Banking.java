@@ -1,0 +1,64 @@
+package com.corejava.dayOneAssignments.Banking;
+
+import java.util.Scanner;
+
+public class Question_1_Banking {
+	
+	//Creating a method to call in main method
+	
+	public void arithmeticOperations() {
+		
+		//Take two numbers as input from user
+		Scanner sc = new Scanner(System.in);
+		
+		//Ask User for the first number
+		System.out.println("Please enter your first number : ");
+		
+		//Take input
+		int num1 = sc.nextInt();
+		
+		//Ask User for the second number
+		System.out.println("Please enter your Second number : ");
+		
+		int num2 = sc.nextInt();
+		 
+		//Performing Operations
+		int add = num1 + num2;
+		int sub = num1 - num2;
+		int multi = num1 * num2;
+		int div = num1/num2;
+		
+		System.out.println("The Result "+'\n'+"Addition: "+add+" Subtraction : "+sub+" Multiplication : "+multi+" Division : "+div);
+		
+		sc.close();
+		
+	}
+	
+	//Method Account Balance,Simple Withdrawal
+	public void accountBalance() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter holder name :");
+		String name = sc.next();
+		
+        System.out.println("Enter initial Balance :");
+        int balance = sc.nextInt();
+        
+        System.out.println("Enter deposit amount :");
+        int deposit= sc.nextInt();
+        
+        System.out.println("Enter withdrawal amount :");
+        int withdraw= sc.nextInt();
+        
+        int updatedBalance = deposit + balance;
+        int withdrawalamount = balance - withdraw;
+        
+        System.out.println("Updated Balance is  " +updatedBalance+ " of " +name);
+        System.out.println("Updated Balance after withdrawal " +withdrawalamount);
+        sc.close();
+        
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.corejava.dayOneAssignments;
+
+import com.corejava.dayOneAssignments.Banking.Question_1_Banking;
+
+public class MainClassForOtherClasses {
+	
+	public static void main(String[] args) {
+		
+		Question_1_Banking QB = new Question_1_Banking();
+		
+	}
+
+}

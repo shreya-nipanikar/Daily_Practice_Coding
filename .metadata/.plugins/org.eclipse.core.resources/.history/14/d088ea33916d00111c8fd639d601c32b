@@ -1,0 +1,23 @@
+package com.corejava.dayOneAssignments.Banking;
+
+import java.util.Scanner;
+
+public class Question_11_Reservation {
+	
+	 	public void ticketBookingAmount() {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter number of tickets: ");
+		int ticketnumber = sc.nextInt();
+		
+		System.out.println("Enter price per ticket: ");
+		int price = sc.nextInt();
+		
+		int totalAmount = ticketnumber * price;
+		
+		System.out.println("Total cost: "+totalAmount);
+		sc.close();
+	}
+	
+
+}

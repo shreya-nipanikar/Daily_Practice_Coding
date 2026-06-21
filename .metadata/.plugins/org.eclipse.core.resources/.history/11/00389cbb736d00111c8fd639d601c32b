@@ -1,0 +1,37 @@
+package com.corejava.dayOneAssignments.Banking;
+
+import java.util.Scanner;
+
+public class Question_1_Banking {
+	
+	//Creating a method to call in main method
+	
+	public void arithmeticOperations() {
+		
+		//Take two numbers as input from user
+		Scanner sc = new Scanner(System.in);
+		
+		//Ask User for the first number
+		System.out.println("Please enter your first number : ");
+		
+		//Take input
+		int num1 = sc.nextInt();
+		
+		//Ask User for the second number
+		System.out.println("Please enter your Second number : ");
+		
+		int num2 = sc.nextInt();
+		 
+		//Performing Operations
+		int add = num1 + num2;
+		int sub = num1 - num2;
+		int multi = num1 * num2;
+		int div = num1/num2;
+		
+		System.out.println("The Result "+'\n'+"Addition: "+add+"Subtraction"+sub+"Multiplication"+multi+"Division"+div);
+		
+		sc.close();
+		
+	}
+
+}
