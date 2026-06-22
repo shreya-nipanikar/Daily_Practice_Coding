@@ -1,0 +1,33 @@
+package com.corejava.dayTwoAssignments;
+
+import java.util.Scanner;
+
+public class MainClassForInHeritance {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter account number");
+		String name = sc.next();
+		
+		System.out.println("Enter account name");
+		String accname = sc.next();
+		
+		System.out.println("Enter balance");
+		double balance = sc.nextDouble();
+		
+		BankAccount ba = new BankAccount(name,accname,balance);
+		
+		System.out.println("Enter deposit amount");
+		double amount = sc.nextDouble();
+		
+		ba.deposit(amount);
+		ba.displayBalance();
+		
+		sc.close();
+			
+
+	}
+
+}

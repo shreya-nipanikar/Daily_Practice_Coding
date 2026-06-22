@@ -1,0 +1,58 @@
+package com.corejava.dayTwoAssignments;
+
+import java.util.Scanner;
+
+public class BankAccount {
+	
+	String accountNumber;
+	String accountHolderName;
+	double balance;
+	
+	
+	public BankAccount(String accountNumber, String accountHolderName, double balance) {
+		this.accountNumber = accountNumber;
+		this.accountHolderName = accountHolderName;
+		this.balance = balance;
+	}
+
+	void deposit(double amount) {
+		balance = balance + amount;
+		System.out.println("Amount deposited : "+amount);
+	}
+	
+	void displayBalance() {
+		System.out.println("Your total balance : "+balance);
+	}
+
+
+
+	public static BankAccount createAccount() {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter account number");
+		String name = sc.next();
+		
+		System.out.println("Enter account name");
+		String accname = sc.next();
+		
+		System.out.println("Enter balance");
+		double balance = sc.nextDouble();
+	    
+		sc.close();
+		
+		return new BankAccount(name,accname,balance);
+		
+		}
+	
+		void run() {
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.println("Enter deposit amount");
+			double amount = sc.nextDouble();
+			
+			deposit(amount);
+			displayBalance();
+			
+			
+		}
+}

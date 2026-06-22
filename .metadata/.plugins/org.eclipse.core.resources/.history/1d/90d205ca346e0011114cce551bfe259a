@@ -1,0 +1,17 @@
+package com.corejava.dayTwoAssignments;
+
+public class LoanProcess {
+	
+	String loadId;
+	int amount;
+	int loanTenure;
+	
+	public LoanProcess(String loadId, int amount, int loanTenure) {
+		super();
+		this.loadId = loadId;
+		this.amount = amount;
+		this.loanTenure = loanTenure;
+	}
+	
+	
+}

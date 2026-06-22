@@ -1,0 +1,20 @@
+package com.corejava.dayTwoAssignments;
+
+public class SavingsAccount extends BankAccount {
+	
+	double interestRate;
+	
+	public SavingsAccount(String accountNumber, String accountHolderName, double balance) {
+		super(accountNumber, accountHolderName, balance);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+	
+
+	
+	
+	
+
+}

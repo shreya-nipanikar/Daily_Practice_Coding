@@ -1,0 +1,33 @@
+package com.corejava.dayTwoAssignments;
+
+public class Customer {
+	
+	String transactionId;
+	String name;
+	int contactNumber;
+	
+	public Customer(String transactionId, String name, int contactNumber) {
+		this.transactionId = transactionId;
+		this.name = name;
+		this.contactNumber = contactNumber;
+	}
+	
+}
+
+
+class CustomerPremium extends Customer {
+	
+	
+	
+	public CustomerPremium(String transactionId, String name, int contactNumber,String membershipType) {
+		super(transactionId, name, contactNumber);
+		this.membershipType = membershipType;
+	
+	}
+
+	String membershipType;
+	
+	
+	
+	
+}

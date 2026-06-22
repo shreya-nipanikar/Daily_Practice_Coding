@@ -1,0 +1,30 @@
+package com.corejava.dayTwoAssignments;
+
+public class EmployeeSystem {
+	
+	int employeeId;
+	String name;
+	double salary;
+	
+	public EmployeeSystem(int employeeId, String name, double salary) {
+		this.employeeId = employeeId;
+		this.name = name;
+		this.salary = salary;
+	}
+		
+}
+
+public class Manager extends EmployeeSystem{
+	
+	String deptName;
+	int bonus;
+
+	public Manager(int employeeId, String name, double salary,
+			String deptName, int bonus) {
+		super(employeeId, name, salary);
+		this.deptName = deptName;
+		this.bonus = bonus;
+		
+	}
+	
+}

@@ -1,0 +1,18 @@
+package com.corejava.dayTwoAssignments;
+
+
+
+public class MainClassForInHeritance {
+
+	public static void main(String[] args) {
+		
+		
+		SavingsAccount sa = new SavingsAccount("101", "Shreya", 5000, 5);
+        
+		sa.run();
+		
+			
+
+	}
+
+}

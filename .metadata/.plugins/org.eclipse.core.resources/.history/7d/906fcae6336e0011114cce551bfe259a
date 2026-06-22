@@ -1,0 +1,21 @@
+package com.corejava.dayTwoAssignments;
+
+
+
+public class MainClassForInHeritance {
+
+	public static void main(String[] args) {
+		
+		//BankAccount account = BankAccount.createAccount();
+        //account.run();
+		
+		SavingsAccount sa = new SavingsAccount("101", "Shreya", 5000, 5);
+		sa.deposit(2000);
+		sa.displayBalance();
+		sa.calculateInterest();
+		
+			
+
+	}
+
+}
