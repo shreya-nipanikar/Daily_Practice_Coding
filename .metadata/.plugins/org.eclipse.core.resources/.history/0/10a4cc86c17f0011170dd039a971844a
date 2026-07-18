@@ -1,0 +1,27 @@
+package com.corejava.exceptionhandling;
+
+public class InvalidAccount extends Exception {
+	
+	
+	public InvalidAccount(String message) {
+		super(message);
+	}
+	
+}
+
+class Accnumber {
+	
+	public void validAccount(long accNumber) throws InvalidAccount
+	{
+		if(String.valueOf(accNumber).length() != 12) {
+			throw new InvalidAccount("Your account number must be 12digits");
+			
+		} else {
+			System.out.println("Your account number is prefect :"+accNumber);
+		}
+		
+		
+	}
+	
+	
+}

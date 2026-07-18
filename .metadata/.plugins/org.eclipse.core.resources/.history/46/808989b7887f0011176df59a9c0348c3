@@ -1,0 +1,30 @@
+package com.corejava.controlstatements;
+
+import java.util.Scanner;
+
+public class InterestCalculation {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter number of accounts");
+		
+		int acc = sc.nextInt();
+		
+		for(int i=1;i<=acc;i++) {
+			
+			System.out.println("Enter amount to calculate interest :");
+			int amount = sc.nextInt();
+			double interest = amount*0.40;
+			System.out.println("Your interest amount :"+interest);
+			
+		}
+		
+		
+		
+		
+	}
+	
+
+}

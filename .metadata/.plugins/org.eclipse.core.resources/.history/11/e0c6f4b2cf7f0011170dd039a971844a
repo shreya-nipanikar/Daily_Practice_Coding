@@ -1,0 +1,10 @@
+package com.corejava.exceptionhandling;
+
+public class Reservation extends Exception{
+
+	public Reservation(String message) {
+		super(message);
+	}
+	
+
+}

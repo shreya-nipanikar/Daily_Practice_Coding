@@ -1,0 +1,25 @@
+package com.corejava.controlstatements;
+
+import java.util.Scanner;
+
+public class DailyTransaction {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number of transactions");
+		int total =0;
+		int a = sc.nextInt();
+		
+		for(int i=1;i<=a;i++) {
+			System.out.println("Enter amount: ");
+			int b = sc.nextInt();
+			total = total+b;
+		}
+		
+		System.out.println("Total transaction value: "+total);
+		
+
+	}
+
+}

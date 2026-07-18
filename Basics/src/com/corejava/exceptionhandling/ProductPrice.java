@@ -1,0 +1,37 @@
+package com.corejava.exceptionhandling;
+
+public class ProductPrice extends Exception {
+
+	public ProductPrice(String message) {
+		super(message);
+	}
+	
+}
+
+
+class PriceValidation  {
+	
+	int price;
+	int quantity;
+	
+	public PriceValidation(int price, int quantity) throws ProductPrice {
+		this.price = price;
+		this.quantity = quantity;
+		
+		if(price <0) {
+			throw new ProductPrice("Price cannot be negative");
+		}
+		
+		if(quantity <0) {
+			throw new ProductPrice("Quantity cannot be negative");
+		}
+		
+		System.out.println("Perfect age and quanity!");
+		
+	}
+	
+	
+	
+	
+	
+}

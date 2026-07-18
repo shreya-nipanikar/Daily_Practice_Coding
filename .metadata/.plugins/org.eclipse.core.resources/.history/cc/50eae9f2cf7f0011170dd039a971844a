@@ -1,0 +1,42 @@
+package com.corejava.exceptionhandling;
+
+public class Mainclassforexecution {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * Accnumber acc = new Accnumber();
+		 * 
+		 * try { acc.validAccount("123456781"); } catch (InvalidAccount e) {
+		 * 
+		 * //System.out.println(e.getMessage()); e.printStackTrace();
+		 * 
+		 * }
+		 */
+		
+		
+		/*
+		 * AgeValidation pa = new AgeValidation();
+		 * 
+		 * try { pa.Valid(-9); } catch (PolicyAge e) {
+		 * System.out.println(e.getMessage()); e.printStackTrace(); }
+		 */		
+		
+		/*
+		 * try { PriceValidation pv = new PriceValidation(10,-10); } catch (ProductPrice
+		 * e) { System.out.println(e.getMessage()); //e.printStackTrace(); }
+		 */
+		
+		
+		SeatNotAvailable SA = new SeatNotAvailable();
+		try {
+			SA.CheckAvailablity(10);
+		} catch (Reservation e) {
+			System.out.println(e.getMessage());
+			
+		}
+		
+
+	}
+
+}

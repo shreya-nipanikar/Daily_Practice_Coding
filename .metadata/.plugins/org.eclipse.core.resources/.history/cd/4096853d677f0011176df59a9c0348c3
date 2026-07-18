@@ -1,0 +1,10 @@
+package com.corejava.controlstatements;
+
+public class DailyTransaction {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

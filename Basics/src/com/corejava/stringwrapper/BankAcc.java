@@ -1,0 +1,42 @@
+package com.corejava.stringwrapper;
+
+import java.util.Scanner;
+
+public class BankAcc {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter acc no:");
+		String accno = sc.next();
+		
+		System.out.println("Enter accholdername:");
+		String accholdername = sc.next();
+		System.out.println(accholdername.toUpperCase());
+		
+		System.out.println("Enter IFSC code: ");
+		String ifsc = sc.next();
+		
+		//Validate the account number contains only digits. 
+		if(accno.matches("\\d+")) {
+			System.out.println("Valid account number");
+		} else {
+			System.out.println("Invalid");
+		}
+		
+		if(accholdername.matches(".*[^a-zA-Z0-9].*")) {
+			System.out.println("Contains special character");
+		} else {
+			System.out.println("Valid account holder name");
+		}
+		
+		if (ifsc.matches("^[A-Z]{4}0[A-Z0-9]{6}$")) {
+		    System.out.println("Valid IFSC Code");
+		} else {
+		    System.out.println("Invalid IFSC Code");
+		}
+
+	}
+
+}

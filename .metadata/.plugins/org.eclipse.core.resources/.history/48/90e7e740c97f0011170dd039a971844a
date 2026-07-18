@@ -1,0 +1,21 @@
+package com.corejava.exceptionhandling;
+
+public class Mainclassforexecution {
+
+	public static void main(String[] args) {
+		
+		Accnumber acc = new Accnumber();
+	
+		try {
+			acc.validAccount("123456781");
+		} catch (InvalidAccount e) {
+			
+			//System.out.println(e.getMessage());
+			e.printStackTrace();
+			
+		}
+		
+
+	}
+
+}

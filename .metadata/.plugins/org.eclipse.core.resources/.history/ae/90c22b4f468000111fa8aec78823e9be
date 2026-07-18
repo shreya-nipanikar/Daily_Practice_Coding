@@ -1,0 +1,17 @@
+package com.corejava.exceptionhandling;
+
+import java.time.LocalDate;
+import java.util.Scanner;
+
+public class ReservationTravel {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter travel date");
+		LocalDate travelDate = LocalDate.parse(sc.next());
+		
+
+	}
+
+}

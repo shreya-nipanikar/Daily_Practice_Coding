@@ -1,0 +1,7 @@
+package com.corejava.abstractandinterface;
+
+public abstract class Payment {
+	
+	abstract void makePayment(double amount);
+	
+}

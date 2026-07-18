@@ -1,0 +1,9 @@
+package com.corejava.abstractandinterface;
+
+public interface ClaimProcess {
+	
+	void processClaim();
+	
+	
+
+}

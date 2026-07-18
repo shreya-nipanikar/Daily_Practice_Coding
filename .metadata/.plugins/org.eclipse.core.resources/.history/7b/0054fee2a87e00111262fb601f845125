@@ -1,0 +1,5 @@
+package com.corejava.abstractandinterface;
+
+public abstract class InsurancePolicy {
+
+}

@@ -1,0 +1,27 @@
+package com.corejava.controlstatements;
+
+import java.util.Scanner;
+
+public class EcommerceDiscount {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Product Price :");
+		int price = sc.nextInt();
+		
+		if(price >10000) {
+			System.out.println("Your discount amount:"+price*0.20);
+			
+		} else if(price <=5000) {
+			System.out.println("Your discount amount: "+price*0.10);
+		}
+		else {
+			System.out.println("Not eligible for discount");
+		}
+		
+		
+	}
+	
+
+}

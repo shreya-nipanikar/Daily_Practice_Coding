@@ -1,0 +1,46 @@
+package com.corejava.controlstatements;
+
+import java.util.Scanner;
+
+public class BankingmMenu {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int balance = 10000;
+		
+	    System.out.println("Choose Menu \n 1. Deposit \n 2. Withdraw \n 3.Balance Enquiry \n 4. Exit");
+	    
+	    int user = sc.nextInt();
+	    
+	    switch(user) {
+	    case 1: 
+	    	System.out.println("Enter deposit :");
+	    	int a = sc.nextInt();
+	    	System.out.println("Your account is updated :"+(a+balance));
+	    	break;
+	    	
+	    case 2:
+	    	System.out.println("Enter withdrawal amount :");
+	    	int b = sc.nextInt();
+	    	System.out.println("Your account balace: "+(b-balance));
+	    	break;
+	    	
+	    case 3:
+	    	System.out.println("Your account balance is: "+balance);
+	    	break;
+	    
+	    case 4:
+	    	System.out.println("Thank you");
+	    	break;
+	    	
+	    default:
+	    	System.out.println("Invalid Operation");
+	    	break;
+	    	
+	    }
+	
+	
+	}
+
+}

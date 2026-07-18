@@ -1,0 +1,33 @@
+package com.corejava.abstractandinterface;
+
+public abstract class InsurancePolicy {
+	
+	int policyId;
+	String policyHolder;
+	
+	public InsurancePolicy(int policyId, String policyHolder) {
+		super();
+		this.policyId = policyId;
+		this.policyHolder = policyHolder;
+	}
+	
+	
+	abstract void calculatePremium();
+	
+
+}
+
+class HealthInsurance extends InsurancePolicy{
+
+	public HealthInsurance(int policyId, String policyHolder) {
+		super(policyId, policyHolder);
+		
+	}
+
+	@Override
+	void calculatePremium() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

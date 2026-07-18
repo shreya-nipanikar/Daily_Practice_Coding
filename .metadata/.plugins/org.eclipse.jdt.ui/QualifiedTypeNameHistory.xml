@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.corejava.dayOneAssignments.Banking.Question_11_Reservation"/>
+    <fullyQualifiedTypeName name="com.corejava.dayThreeAssignments.InsuranceMethodOverideExample"/>
+    <fullyQualifiedTypeName name="com.corejava.dayThreeAssignments.healthInsurance"/>
+    <fullyQualifiedTypeName name="com.corejava.dayThreeAssignments.vehicleInsurance"/>
+    <fullyQualifiedTypeName name="com.corejava.Encapsulation.CreditCard"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="com.corejava.constructor.ConstructorChaining"/>
+    <fullyQualifiedTypeName name="com.corejava.constructor.BankAcc"/>
+    <fullyQualifiedTypeName name="com.corejava.constructor.MultipleAcc"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
 </qualifiedTypeNameHistroy>

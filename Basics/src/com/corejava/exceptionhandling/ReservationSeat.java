@@ -1,0 +1,34 @@
+package com.corejava.exceptionhandling;
+
+import java.util.Scanner;
+
+public class ReservationSeat {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter total seats");
+		int seats = sc.nextInt();
+		
+		System.out.println("Enter seats requested");
+		int req = sc.nextInt();
+		
+		try {
+			
+			if(req > seats) {
+				throw new Exception("Not enough seats are avaiable. Only "+seats+" avaiable");
+			}
+			
+			System.out.println("Reserved");
+			
+		} catch(Exception e) {
+		   
+			System.out.println(e.getMessage());
+			
+			
+		}
+		
+
+	}
+
+}
