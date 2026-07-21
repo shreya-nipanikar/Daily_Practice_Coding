@@ -1,0 +1,76 @@
+package com.corejava.collections;
+
+import java.util.ArrayList;
+
+class Customer {
+	String id;
+	String name;
+	String accountType;
+	int balance;
+	boolean status;
+	
+	public Customer(String id, String name, String accountType, int balance,boolean status) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.accountType = accountType;
+		this.balance = balance;
+		this.status = status;
+	}
+	
+	public static void findCustomer(ArrayList<Customer> customers) {
+		
+		System.out.println("Customers with low balance");
+		
+		for(Customer c1: customers) {
+		    
+			if(c1.balance < 10000) {
+				System.out.println("Name: "+c1.name);
+				System.out.println("Balance: "+c1.balance);
+			}
+			
+			
+		}
+		
+		
+	}
+	
+
+        public static void removecloseaccount(ArrayList<Customer> customers) {
+	
+	        customers.removeIf(c -> c.status);
+	        
+	        System.out.println("Closed Account: ");
+	        
+	        for (Customer c : customers) {
+	            System.out.println(c.name + " " + c.balance);
+	        }
+	       
+
+        }
+}
+
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+	
+		
+		ArrayList<Customer> customers = new ArrayList<>();
+		customers.add(new Customer("1","Shreya","Savings",25000,false));
+		customers.add(new Customer("2","Rahul","Checkings",10000,true));
+		customers.add(new Customer("3","shanaya","Savings",8000,false));
+		customers.add(new Customer("4","Shanni","Checkings",7000,false));
+		customers.add(new Customer("5","Rohan","Savings",35000,true));
+		
+		for(Customer c : customers) {
+			System.out.println(c.id+" "+c.name+" "+c.accountType+" "+c.balance);
+		}
+		
+		Customer.findCustomer(customers);
+		
+		
+
+	}
+
+}

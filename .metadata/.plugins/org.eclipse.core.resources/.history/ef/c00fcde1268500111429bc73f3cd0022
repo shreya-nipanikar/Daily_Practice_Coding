@@ -1,0 +1,23 @@
+package com.corejava.collections;
+
+import java.util.ArrayList;
+
+class Customer {
+	String id;
+	String name;
+	String accountType;
+	int balance;
+}
+
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+	
+		
+		ArrayList<Customer> customers = new ArrayList<>();
+		
+
+	}
+
+}

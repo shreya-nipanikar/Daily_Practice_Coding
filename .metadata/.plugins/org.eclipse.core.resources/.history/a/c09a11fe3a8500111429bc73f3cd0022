@@ -1,0 +1,16 @@
+package com.corejava.collections;
+
+public class LinkedListBank {
+	
+	String transactionId;
+	String accnumb;
+	String transactionType;
+	int price;
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,43 @@
+package com.corejava.collections;
+
+import java.util.ArrayList;
+
+class Customer {
+	String id;
+	String name;
+	String accountType;
+	int balance;
+	
+	public Customer(String id, String name, String accountType, int balance) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.accountType = accountType;
+		this.balance = balance;
+	}
+	
+	
+}
+
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+	
+		
+		ArrayList<Customer> customers = new ArrayList<>();
+		customers.add(new Customer("1","Shreya","Savings",25000));
+		customers.add(new Customer("2","Rahul","Checkings",10000));
+		customers.add(new Customer("3","shanaya","Savings",8000));
+		customers.add(new Customer("4","Shanni","Checkings",7000));
+		
+		for(Customer c : customers) {
+			System.out.println(c.id+" "+c.name+" "+c.accountType+" "+c.balance);
+		}
+		
+		
+		
+
+	}
+
+}

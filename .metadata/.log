@@ -2636,3 +2636,16 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
 !SUBENTRY 1 org.eclipse.core.expressions 4 201 2026-07-18 19:44:50.818
 !MESSAGE No property tester contributes a property org.eclipse.debug.ui.matchesContentType to type class org.eclipse.swt.custom.CTabItem
+!SESSION 2026-07-21 21:50:48.350 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/shreyanipanikar/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/shreyanipanikar/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-21 21:50:49.303
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-21 21:50:52.910
+!MESSAGE Logback config file: /Users/shreyanipanikar/Desktop/Java_Basics/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
