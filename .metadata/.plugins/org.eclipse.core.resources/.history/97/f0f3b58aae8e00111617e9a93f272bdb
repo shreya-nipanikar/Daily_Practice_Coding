@@ -1,0 +1,5 @@
+package com.insurance.InsurancePolicy.entity;
+
+public class InsurancePolicy {
+
+}

@@ -1,0 +1,5 @@
+package com.insurance.InsurancePolicy.repository;
+
+public interface InsurancePolicyRepo {
+
+}

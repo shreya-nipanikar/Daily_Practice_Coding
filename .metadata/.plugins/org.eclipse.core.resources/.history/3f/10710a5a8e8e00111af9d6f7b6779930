@@ -1,0 +1,5 @@
+package com.test.customer.repository;
+
+public interface CustomerRepo {
+
+}
