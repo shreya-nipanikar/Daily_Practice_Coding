@@ -1,0 +1,27 @@
+# Eclipse workspace
+.metadata/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Java compiled files
+bin/
+*.class
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+
+# Local Spring Boot configuration
+application-local.properties
+application-local.yml
