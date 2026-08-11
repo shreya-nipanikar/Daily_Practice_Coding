@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;com.corejava.controlstatements.MainClassforexecution&apos; to &apos;BankingmMenu&apos;&#x0A;- Original project: &apos;Basics&apos;&#x0A;- Original element: &apos;com.corejava.controlstatements.MainClassforexecution&apos;&#x0A;- Renamed element: &apos;com.corejava.controlstatements.BankingmMenu&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MainClassforexecution&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.corejava.controlstatements{MainClassforexecution.java[MainClassforexecution" matchStrategy="1" name="BankingmMenu" qualified="false" references="true" similarDeclarations="false" stamp="1784019452009" textual="false" version="1.0"/>
-</session>
